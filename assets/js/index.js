@@ -8,18 +8,18 @@ $("#landing-button").click(function() {
 
 //lebron pic toggler
 
-let lebronContainer = document.getElementsByClassName("lebron-pic-container")[0];
+let lebronContainer = document.getElementById("lebron-pic-container");
 
-let lebronToggleSrc = document.getElementsByClassName("lebron-toggle")[0].src;
+let lebronToggle = document.getElementById("lebron-toggle");
 
-console.log(lebronToggleSrc);
+console.log(lebronToggle.src);
 
-lebronContainer.onclick = function(){
+lebronToggle.onclick = function(){
     console.log("clicked");
-    if (lebronToggleSrc === "https://spencebrown.github.io/assets/img/lebron_before.jpg") {
-        console.log("before");
-        lebronToggleSrc = "https://spencebrown.github.io/assets/img/lebron_after-text.jpg";
+    if (lebronToggle.src === "https://spencebrown.github.io/assets/img/lebron_before.jpg")
+ {
+        lebronToggle.src = "https://spencebrown.github.io/assets/img/lebron_after-text.jpg";
     } else {
-        lebronToggleSrc = "https://spencebrown.github.io/assets/img/lebron_before.jpg";
+        lebronToggle.src = "https://spencebrown.github.io/assets/img/lebron_before.jpg";
     }
 }; 
