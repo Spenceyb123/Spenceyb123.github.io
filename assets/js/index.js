@@ -16,10 +16,10 @@ console.log(lebronToggleSrc);
 
 lebronContainer.onclick = function(){
     console.log("clicked");
-    if (lebronToggleSrc = "ssets/Images/lebron_before.jpg") {
+    if (lebronToggleSrc === "https://spencebrown.github.io/assets/img/lebron_before.jpg") {
         console.log("before");
-        lebronToggleSrc = "assets/Images/lebron_after-text.jpg";
+        lebronToggleSrc = "https://spencebrown.github.io/assets/img/lebron_after-text.jpg";
     } else {
-        lebronToggleSrc = "ssets/Images/lebron_before.jpg";
+        lebronToggleSrc = "https://spencebrown.github.io/assets/img/lebron_before.jpg";
     }
 }; 
