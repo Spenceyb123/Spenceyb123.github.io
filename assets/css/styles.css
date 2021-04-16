@@ -64,9 +64,82 @@ form {
 
 #lebron-toggle {
   width: 100%;
+  cursor: pointer;
 }
 
 #lebron-pic-container {
   cursor: pointer;
+}
+
+.portfolio-section {
+  color: #fff;
+  background-color: rgb(11,10,10);
+  background-size: cover;
+}
+
+.nba-matchups-container {
+  cursor: pointer;
+  box-shadow: 8px 8px 18px;
+}
+
+.nba-matchups-img {
+  width: 100%;
+}
+
+.react-js-heading {
+  padding-top: 75px;
+}
+
+.fa.fa-github.github-icon {
+  font-size: 50px;
+}
+
+.project-description {
+  margin-top: 40px;
+}
+
+.orange-span {
+  color: darkorange;
+}
+
+.email-link {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: max-content;
+}
+
+.email-link:hover {
+  border-bottom: 5px solid #42dca3;
+  color: #42dca3;
+}
+
+.social-link {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.far.fa-arrow-alt-circle-up {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.fa.fa-arrow-circle-up {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2),0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.arrow-up-link {
+  width: max-content;
+}
+
+h1, h2 {
+  font-weight: normal;
 }
 
