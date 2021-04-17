@@ -1,0 +1,186 @@
+.agriculture-landing {
+  height: calc(100vh - 56px);
+}
+
+.ag-landing-image.individual-product-page-image-container {
+  width: 100%;
+}
+
+.ag-landing-image {
+  height: calc(40% - 56px);
+  background: url("../../assets/img/agriculture/agriculture-natural-landing-page.jpg") no-repeat;
+  background-size: cover;
+}
+
+.ag-page-main-heading {
+  color: white;
+  text-align: center;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  font-size: 6vmax;
+}
+
+.ag-page-main-para {
+  text-align: center;
+  color: #2D4E76;
+  font-weight: bold;
+  font-size: 2vmax;
+}
+
+.ag-page-main-subheading {
+  color: #416f1e;
+  font-weight: bold;
+  font-size: 1.8vmax;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.ag-page-main-button {
+  background-color: #E25F28;
+}
+
+.ag-page-main-button-container {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.ag-main-why-how-spans {
+  border-bottom: 5px solid #416f1e;
+}
+
+.ag-main-content-container {
+  padding: 16px;
+  color: #5E5E5E;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.ag-page-why-list-spans {
+  font-weight: bold;
+}
+
+@media (orientation:landscape) {
+  .ag-page-why-try-heading {
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+.ag-page-why-try-heading {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.ag-pick-an-area-span {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.ag-landing-content-container {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.list-unstyled.ag-page-why-list {
+  margin-bottom: 70px;
+}
+
+.ag-page-how-para {
+  margin-bottom: 70px;
+  font-size: 18px;
+}
+
+.featured-products-container {
+  margin-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (orientation:landscape) {
+  .ag-page-main-heading {
+    color: white;
+    text-align: center;
+    top: 30%;
+    position: relative;
+    transform: translateY(-50%);
+    /*font-size: 6vmax;*/
+  }
+}
+
+@media (orientation:landscape) {
+  .ag-landing-image {
+    height: calc(100vh - 56px);
+    width: 50%;
+    background: url("../../assets/img/agriculture/agriculture-natural-landing-page.jpg") no-repeat;
+    background-size: cover;
+    float: left;
+  }
+}
+
+@media (orientation:landscape) {
+  .ag-landing-content-container {
+    display: flex;
+    height: calc(100vh - 56px);
+    width: 50%;
+    float: right;
+    justify-content: space-evenly;
+  }
+}
+
+@media (orientation:landscape) {
+  .ag-page-main-para, .ag-page-main-subheading, .ag-page-main-button-container {
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (orientation:landscape) {
+  .ag-page-main-button-container {
+    text-align: left;
+  }
+}
+
+.featured-products-link-wrapper-container {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media (orientation:landscape) {
+  .featured-products-link-wrapper-container {
+    width: 30%;
+  }
+}
+
+@media (orientation:landscape) {
+  .featured-products-container {
+    margin-bottom: 70px;
+    padding-left: 30px;
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-evenly;
+  }
+}
+
+.fyi-resources-title {
+  color: #5E5E5E;
+  text-align: left;
+  /*margin-bottom: 40px;*/
+}
+
+.fyi-resources-container {
+  padding: 16px;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.ag-page-landng-para-subheading-container {
+  padding: 16px;
+}
+
