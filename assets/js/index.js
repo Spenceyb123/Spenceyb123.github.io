@@ -8,14 +8,9 @@ $("#landing-button").click(function() {
 
 //lebron pic toggler
 
-let lebronContainer = document.getElementById("lebron-pic-container");
-
 let lebronToggle = document.getElementById("lebron-toggle");
 
-console.log(lebronToggle.src);
-
-lebronToggle.onclick = function(){
-    console.log("clicked");
+lebronToggle.onclick = function(e){
     if (lebronToggle.src === "https://spencebrown.github.io/assets/img/lebron_before.jpg")
  {
         lebronToggle.src = "https://spencebrown.github.io/assets/img/lebron_after-text.jpg";
