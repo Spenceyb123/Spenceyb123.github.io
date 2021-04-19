@@ -88,6 +88,7 @@ form {
 
 .react-js-heading {
   padding-top: 75px;
+  text-align: center;
 }
 
 .fa.fa-github.github-icon {
@@ -141,5 +142,13 @@ form {
 
 h1, h2 {
   font-weight: normal;
+}
+
+.container.resume-section-container {
+  margin-bottom: 75px;
+}
+
+#resume {
+  /*background-color: #4A6299;*/
 }
 
